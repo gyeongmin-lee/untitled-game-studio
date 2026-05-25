@@ -1,0 +1,82 @@
+[
+  {
+    "id": "rpg",
+    "name": "RPG",
+    "description": "스토리와 시스템 중심. 깊이 있는 세계관이 핵심.",
+    "identityId": "narrative-rpg",
+    "primaryStats": ["story", "systems"],
+    "bonusTags": ["서사", "시스템", "RPG"],
+    "synergy": "서사/시스템 카드 효과 +1",
+    "icon": "📖"
+  },
+  {
+    "id": "action",
+    "name": "액션",
+    "description": "게임플레이와 폴리싱 중심. 손맛이 전부.",
+    "identityId": "soulslike",
+    "primaryStats": ["gameplay", "polish"],
+    "bonusTags": ["액션", "하드코어", "UX"],
+    "synergy": "액션/폴리싱 카드 효과 +1",
+    "icon": "⚔️"
+  },
+  {
+    "id": "cozy",
+    "name": "코지",
+    "description": "사운드와 게임플레이 중심. 힐링이 목적.",
+    "identityId": "cozy-sim",
+    "primaryStats": ["audio", "gameplay"],
+    "bonusTags": ["코지", "사운드"],
+    "synergy": "코지/사운드 카드 효과 +1",
+    "icon": "☕"
+  },
+  {
+    "id": "systems",
+    "name": "이머시브",
+    "description": "시스템과 게임플레이 중심. 복잡성이 매력.",
+    "identityId": "immersive-sim",
+    "primaryStats": ["systems", "gameplay"],
+    "bonusTags": ["시스템", "샌드박스"],
+    "synergy": "시스템/기술 카드 효과 +1",
+    "icon": "🔧"
+  },
+  {
+    "id": "roguelite",
+    "name": "로그라이트",
+    "description": "시스템과 게임플레이 중심. 반복 플레이 설계.",
+    "identityId": "roguelite",
+    "primaryStats": ["systems", "gameplay"],
+    "bonusTags": ["로그라이트", "기획"],
+    "synergy": "로그라이트/기획 카드 효과 +1",
+    "icon": "🎲"
+  },
+  {
+    "id": "narrative",
+    "name": "서사",
+    "description": "스토리와 사운드 중심. 분위기로 승부.",
+    "identityId": "walking-sim",
+    "primaryStats": ["story", "audio"],
+    "bonusTags": ["서사", "사운드"],
+    "synergy": "서사/사운드 카드 효과 +1",
+    "icon": "📚"
+  },
+  {
+    "id": "adventure",
+    "name": "어드벤처",
+    "description": "게임플레이와 비주얼 중심. 탐험의 쾌감.",
+    "identityId": "action-adventure",
+    "primaryStats": ["gameplay", "visual"],
+    "bonusTags": ["액션", "연출", "아트"],
+    "synergy": "액션/아트 카드 효과 +1",
+    "icon": "🗺️"
+  },
+  {
+    "id": "sandbox",
+    "name": "샌드박스",
+    "description": "시스템과 비주얼 중심. 자유도가 핵심.",
+    "identityId": "systems-sandbox",
+    "primaryStats": ["systems", "visual"],
+    "bonusTags": ["대작", "커뮤니티", "시스템"],
+    "synergy": "대작/커뮤니티 카드 효과 +1",
+    "icon": "🏗️"
+  }
+]

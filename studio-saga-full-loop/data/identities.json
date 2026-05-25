@@ -1,0 +1,10 @@
+[
+  {"id":"narrative-rpg","name":"서사형 RPG","requires":{"story":10,"systems":6},"bonus":"스토리와 시스템이 높으면 메타크리틱이 크게 오른다.","tags":["서사","시스템"]},
+  {"id":"soulslike","name":"소울라이크","requires":{"gameplay":12,"polish":8},"bonus":"게임플레이가 높고 부채가 낮으면 팬덤이 폭발한다.","tags":["하드코어","액션"]},
+  {"id":"cozy-sim","name":"코지 심","requires":{"gameplay":8,"audio":6},"bonus":"사기와 사운드가 높으면 스팀 평가가 안정된다.","tags":["코지","사운드"]},
+  {"id":"immersive-sim","name":"이머시브 심","requires":{"systems":12,"gameplay":8},"bonus":"시스템이 높으면 장기 매출이 커지지만 부채에 취약하다.","tags":["시스템"]},
+  {"id":"roguelite","name":"로그라이트","requires":{"systems":10,"gameplay":10},"bonus":"반복 플레이 설계가 강하면 작은 팀도 흥행 가능하다.","tags":["로그라이트"]},
+  {"id":"walking-sim","name":"워킹 시뮬레이터","requires":{"story":10,"audio":6},"bonus":"스토리와 분위기로 낮은 예산을 덮을 수 있다.","tags":["서사","사운드"]},
+  {"id":"action-adventure","name":"액션 어드벤처","requires":{"gameplay":10,"visual":8},"bonus":"비주얼과 손맛이 함께 높으면 대중 매출이 강하다.","tags":["액션","연출"]},
+  {"id":"systems-sandbox","name":"시스템 샌드박스","requires":{"systems":14,"polish":6},"bonus":"모드와 커뮤니티가 붙으면 후속작 기반이 된다.","tags":["커뮤니티","시스템"]}
+]

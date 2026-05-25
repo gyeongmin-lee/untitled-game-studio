@@ -1,0 +1,24 @@
+{
+  "scopes": {
+    "small": {"name":"소규모","months":3,"budget":100,"deckCap":6,"slotCap":3,"unlockTier":1,"risk":"낮음"},
+    "medium": {"name":"중규모","months":6,"budget":300,"deckCap":10,"slotCap":5,"unlockTier":1,"risk":"보통"},
+    "large": {"name":"대작","months":10,"budget":700,"deckCap":16,"slotCap":7,"unlockTier":2,"risk":"높음"},
+    "epic": {"name":"초대작","months":14,"budget":1500,"deckCap":22,"slotCap":10,"unlockTier":4,"risk":"파산급"}
+  },
+  "tiers": [
+    {"level":1,"name":"차고","reputation":0,"officeCap":3,"upgradeCost":0},
+    {"level":2,"name":"인디","reputation":20,"officeCap":5,"upgradeCost":220},
+    {"level":3,"name":"중견","reputation":45,"officeCap":8,"upgradeCost":520},
+    {"level":4,"name":"명문","reputation":70,"officeCap":12,"upgradeCost":950},
+    {"level":5,"name":"전설","reputation":90,"officeCap":20,"upgradeCost":1600}
+  ],
+  "scopeTargets": {"small":20,"medium":42,"large":75,"epic":120},
+  "scopeFactors": {"small":0.5,"medium":1.0,"large":1.7,"epic":2.5},
+  "grades": {
+    "bomb": {"name":"망작","cash":-120,"reputation":-8},
+    "flop": {"name":"저조","cash":80,"reputation":-3},
+    "sleeper": {"name":"숨은 명작","cash":260,"reputation":8},
+    "hit": {"name":"흥행작","cash":800,"reputation":14},
+    "phenomenon": {"name":"신드롬","cash":2200,"reputation":24}
+  }
+}

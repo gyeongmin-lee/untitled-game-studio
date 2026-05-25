@@ -1,0 +1,12 @@
+[
+  {"id":"story-house","name":"서사 명가","description":"스토리 4 이상 게임 3개 출시. 이후 모든 게임 스토리 +1.","condition":"storyGames>=3","effects":{"story":1}},
+  {"id":"grit-indie","name":"근성 인디","description":"300M 이하 게임 3개 출시. 소/중규모 비용 -10%.","condition":"smallBudgetGames>=3","effects":{"smallDiscount":0.1}},
+  {"id":"independent","name":"독립 정신","description":"퍼블리셔 제안 3회 거절. 명성 획득 +50%.","condition":"publisherRefusals>=3","effects":{"reputationGain":0.5}},
+  {"id":"critic-darling","name":"평단의 총아","description":"신드롬 2회. 모든 게임 메타크리틱 +3.","condition":"phenomenons>=2","effects":{"metacritic":3}},
+  {"id":"black-company","name":"블랙 기업","description":"퇴사 2회. 채용 품질 -30%. 워크샵으로 완화 가능.","condition":"quits>=2","effects":{"recruitPenalty":0.3}},
+  {"id":"genre-master","name":"장르 장인","description":"같은 정체성 3회 출시. 해당 정체성 보너스 +25%.","condition":"sameIdentity>=3","effects":{"identityBonus":0.25}},
+  {"id":"tech-core","name":"기술 중심","description":"시스템 5 이상 게임 3개 출시. 시스템 +1, 부채 +1 완화.","condition":"systemsGames>=3","effects":{"systems":1,"debtGuard":1}},
+  {"id":"community-first","name":"팬 우선","description":"커뮤니티 선택 3회. 기대치가 매출로 더 잘 전환된다.","condition":"communityChoices>=3","effects":{"hypeSales":0.08}},
+  {"id":"aaa-scaler","name":"확장 본능","description":"대작 이상 2회 출시. 대형 프로젝트 덱 한도 +2.","condition":"largeGames>=2","effects":{"largeDeck":2}},
+  {"id":"healthy-team","name":"건강한 팀","description":"사기 75 이상으로 3개 게임 출시. 퇴사 위험 감소.","condition":"highMoraleShips>=3","effects":{"quitProtection":1}}
+]

@@ -1,0 +1,22 @@
+[
+  {"id":"kim-jihoon","name":"김지훈","role":"디자이너","stars":1,"salary":28,"morale":72,"specialty":"서사","cards":["branch-ending","npc-banter"],"passive":{"trigger":"on_dev_card_played","condition":{"tag":"서사"},"effect":{"add_momentum":1},"desc":"서사 카드 플레이 시 모멘텀 +1"}},
+  {"id":"park-seoyeon","name":"박서연","role":"프로그래머","stars":1,"salary":30,"morale":70,"specialty":"시스템","cards":["bug-bash","refactor"],"passive":{"trigger":"on_dev_card_played","condition":{"tag":"기술"},"effect":{"debt":-1},"desc":"기술 카드 플레이 시 부채 -1"}},
+  {"id":"lee-junho","name":"이준호","role":"프로그래머","stars":2,"salary":48,"morale":66,"specialty":"기술","cards":["tooling","engine-upgrade","qa-lab"],"passive":{"trigger":"on_month_end","condition":null,"effect":{"debt":-1},"desc":"매 달 말 부채 -1"}},
+  {"id":"choi-yuna","name":"최유나","role":"아티스트","stars":1,"salary":32,"morale":78,"specialty":"비주얼","cards":["pixel-polish","shader-week"]},
+  {"id":"jung-minseo","name":"정민서","role":"디렉터","stars":2,"salary":55,"morale":64,"specialty":"연출","cards":["cinematic-camera","producer-lock","vertical-slice"],"passive":{"trigger":"on_dev_card_played","condition":null,"effect":{"add_momentum":1},"desc":"개발 카드 플레이 시 모멘텀 +1"}},
+  {"id":"kang-harin","name":"강하린","role":"디자이너","stars":1,"salary":31,"morale":75,"specialty":"코지","cards":["cozy-loop","community-test"],"passive":{"trigger":"on_dev_card_played","condition":{"tag":"코지"},"effect":{"morale":2},"desc":"코지 카드 플레이 시 사기 +2"}},
+  {"id":"jo-taewoo","name":"조태우","role":"프로그래머","stars":2,"salary":52,"morale":62,"specialty":"로그라이트","cards":["roguelite-meta","economy-pass"]},
+  {"id":"yoon-dasom","name":"윤다솜","role":"아티스트","stars":2,"salary":50,"morale":74,"specialty":"연출","cards":["cinematic-camera","mood-board","shader-week"]},
+  {"id":"jang-hyejin","name":"장혜진","role":"디자이너","stars":2,"salary":46,"morale":69,"specialty":"서사","cards":["dialogue-editor","fan-lore","branch-ending"]},
+  {"id":"lim-dohyun","name":"임도현","role":"디렉터","stars":3,"salary":85,"morale":58,"specialty":"상업","cards":["publisher-notes","award-campaign","producer-lock"]},
+  {"id":"kim-nari","name":"김나리","role":"아티스트","stars":1,"salary":29,"morale":80,"specialty":"사운드","cards":["audio-identity","ending-song"]},
+  {"id":"lee-hyunwoo","name":"이현우","role":"프로그래머","stars":1,"salary":34,"morale":67,"specialty":"UX","cards":["accessibility","tutorial-cut"]},
+  {"id":"park-chaeun","name":"박채은","role":"디자이너","stars":2,"salary":44,"morale":73,"specialty":"하드코어","cards":["souls-risk","boss-redesign"],"passive":{"trigger":"on_dev_card_played","condition":{"tag":"액션"},"effect":{"add_momentum":2},"desc":"액션/하드코어 카드 플레이 시 모멘텀 +2"}},
+  {"id":"choi-gunwoo","name":"최건우","role":"프로그래머","stars":3,"salary":92,"morale":60,"specialty":"샌드박스","cards":["immersive-sim","mod-support","engine-upgrade"]},
+  {"id":"jung-sia","name":"정시아","role":"아티스트","stars":2,"salary":49,"morale":77,"specialty":"사운드","cards":["sound-pass","audio-identity","ending-song"]},
+  {"id":"kang-yejun","name":"강예준","role":"디렉터","stars":1,"salary":36,"morale":71,"specialty":"인디","cards":["scope-cut","paper-prototype"]},
+  {"id":"jo-eunbi","name":"조은비","role":"디자이너","stars":3,"salary":88,"morale":63,"specialty":"RPG","cards":["skill-tree","dialogue-editor","fan-lore"]},
+  {"id":"yoon-seojin","name":"윤서진","role":"프로그래머","stars":2,"salary":54,"morale":65,"specialty":"출시","cards":["localization","streamer-build","live-demo"]},
+  {"id":"jang-mirae","name":"장미래","role":"아티스트","stars":1,"salary":33,"morale":79,"specialty":"픽셀","cards":["pixel-polish","mood-board"]},
+  {"id":"lim-seungjae","name":"임승재","role":"디렉터","stars":3,"salary":96,"morale":55,"specialty":"대작","cards":["open-world","vertical-slice","award-campaign"]}
+]

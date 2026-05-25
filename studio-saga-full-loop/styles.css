@@ -1,0 +1,66 @@
+* {
+  font-family: 'Noto Sans KR', sans-serif;
+  word-break: keep-all;
+  overflow-wrap: break-word;
+}
+
+.game-card {
+  transition: transform 0.1s ease, box-shadow 0.1s ease;
+}
+
+.game-card:hover:not(.disabled) {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 20px rgba(0,0,0,0.4);
+}
+
+.game-card.disabled {
+  opacity: 0.45;
+  cursor: not-allowed;
+}
+
+.bar-fill {
+  transition: width 0.3s ease;
+}
+
+.modal-backdrop {
+  animation: fadeIn 0.15s ease;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+.screen-enter {
+  animation: slideUp 0.2s ease;
+}
+
+@keyframes slideUp {
+  from { opacity: 0; transform: translateY(8px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* Grade colors */
+.grade-망작 { color: #ef4444; }
+.grade-저조 { color: #f97316; }
+.grade-숨은\ 명작 { color: #a78bfa; }
+.grade-준수 { color: #9ca3af; }
+.grade-흥행작 { color: #22c55e; }
+.grade-신드롬 { color: #fbbf24; }
+
+/* Tier badge colors */
+.tier-차고 { background: #374151; }
+.tier-인디 { background: #1d4ed8; }
+.tier-중견 { background: #7c3aed; }
+.tier-명문 { background: #b45309; }
+.tier-전설 { background: #dc2626; }
+
+/* Star colors */
+.star-filled { color: #fbbf24; }
+.star-empty { color: #374151; }
+
+/* Scrollbar styling */
+::-webkit-scrollbar { width: 6px; height: 6px; }
+::-webkit-scrollbar-track { background: #1f2937; }
+::-webkit-scrollbar-thumb { background: #4b5563; border-radius: 3px; }
+::-webkit-scrollbar-thumb:hover { background: #6b7280; }
